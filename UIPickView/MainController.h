@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainController.h
 //  UIPickView
 //
 //  Created by 李达志 on 2018/4/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainController : UIViewController
 
 @end
-

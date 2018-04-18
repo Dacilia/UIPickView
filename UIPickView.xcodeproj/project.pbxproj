@@ -7,68 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B03E1402085F2B900294F23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B03E13F2085F2B900294F23 /* AppDelegate.m */; };
-		9B03E1432085F2B900294F23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B03E1422085F2B900294F23 /* ViewController.m */; };
-		9B03E1462085F2B900294F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B03E1442085F2B900294F23 /* Main.storyboard */; };
-		9B03E1482085F2B900294F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B03E1472085F2B900294F23 /* Assets.xcassets */; };
-		9B03E14B2085F2B900294F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B03E1492085F2B900294F23 /* LaunchScreen.storyboard */; };
-		9B03E14E2085F2B900294F23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B03E14D2085F2B900294F23 /* main.m */; };
-		9B03E1582085F2B900294F23 /* UIPickViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B03E1572085F2B900294F23 /* UIPickViewTests.m */; };
-		9B03E1632085F2B900294F23 /* UIPickViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B03E1622085F2B900294F23 /* UIPickViewUITests.m */; };
+		9B03E17A2085F30400294F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B03E1722085F30400294F23 /* Assets.xcassets */; };
+		9B03E17B2085F30400294F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B03E1732085F30400294F23 /* LaunchScreen.storyboard */; };
+		9B03E17C2085F30400294F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B03E1752085F30400294F23 /* Main.storyboard */; };
+		9B03E17D2085F30400294F23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B03E1772085F30400294F23 /* main.m */; };
+		9B03E17E2085F30400294F23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B03E1782085F30400294F23 /* AppDelegate.m */; };
+		9B03E1832085F37A00294F23 /* DmPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B03E1822085F37A00294F23 /* DmPickerView.m */; };
+		9B03E1872085F57400294F23 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B03E1862085F57400294F23 /* MainController.m */; };
+		9B03E1892085FC0F00294F23 /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B03E1882085FC0F00294F23 /* MainController.xib */; };
+		9B03E18D2086D8F800294F23 /* PickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B03E18B2086D8F800294F23 /* PickViewController.m */; };
+		9B03E18E2086D8F800294F23 /* PickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B03E18C2086D8F800294F23 /* PickViewController.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9B03E1542085F2B900294F23 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9B03E1332085F2B800294F23 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B03E13A2085F2B900294F23;
-			remoteInfo = UIPickView;
-		};
-		9B03E15F2085F2B900294F23 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9B03E1332085F2B800294F23 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B03E13A2085F2B900294F23;
-			remoteInfo = UIPickView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9B03E13B2085F2B900294F23 /* UIPickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B03E13E2085F2B900294F23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9B03E13F2085F2B900294F23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9B03E1412085F2B900294F23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9B03E1422085F2B900294F23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9B03E1452085F2B900294F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9B03E1472085F2B900294F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9B03E14A2085F2B900294F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9B03E14C2085F2B900294F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B03E14D2085F2B900294F23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9B03E1532085F2B900294F23 /* UIPickViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPickViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B03E1572085F2B900294F23 /* UIPickViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPickViewTests.m; sourceTree = "<group>"; };
-		9B03E1592085F2B900294F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B03E15E2085F2B900294F23 /* UIPickViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPickViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B03E1622085F2B900294F23 /* UIPickViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPickViewUITests.m; sourceTree = "<group>"; };
-		9B03E1642085F2B900294F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B03E1712085F30400294F23 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B03E1722085F30400294F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B03E1742085F30400294F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B03E1762085F30400294F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B03E1772085F30400294F23 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B03E1782085F30400294F23 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B03E1792085F30400294F23 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B03E1812085F37A00294F23 /* DmPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DmPickerView.h; sourceTree = "<group>"; };
+		9B03E1822085F37A00294F23 /* DmPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DmPickerView.m; sourceTree = "<group>"; };
+		9B03E1842085F51D00294F23 /* AppMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
+		9B03E1852085F57400294F23 /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		9B03E1862085F57400294F23 /* MainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		9B03E1882085FC0F00294F23 /* MainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainController.xib; sourceTree = "<group>"; };
+		9B03E18A2086D8F800294F23 /* PickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickViewController.h; sourceTree = "<group>"; };
+		9B03E18B2086D8F800294F23 /* PickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickViewController.m; sourceTree = "<group>"; };
+		9B03E18C2086D8F800294F23 /* PickViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9B03E1382085F2B900294F23 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B03E1502085F2B900294F23 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B03E15B2085F2B900294F23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				9B03E13D2085F2B900294F23 /* UIPickView */,
-				9B03E1562085F2B900294F23 /* UIPickViewTests */,
-				9B03E1612085F2B900294F23 /* UIPickViewUITests */,
 				9B03E13C2085F2B900294F23 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				9B03E13B2085F2B900294F23 /* UIPickView.app */,
-				9B03E1532085F2B900294F23 /* UIPickViewTests.xctest */,
-				9B03E15E2085F2B900294F23 /* UIPickViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,35 +69,40 @@
 		9B03E13D2085F2B900294F23 /* UIPickView */ = {
 			isa = PBXGroup;
 			children = (
-				9B03E13E2085F2B900294F23 /* AppDelegate.h */,
-				9B03E13F2085F2B900294F23 /* AppDelegate.m */,
-				9B03E1412085F2B900294F23 /* ViewController.h */,
-				9B03E1422085F2B900294F23 /* ViewController.m */,
-				9B03E1442085F2B900294F23 /* Main.storyboard */,
-				9B03E1472085F2B900294F23 /* Assets.xcassets */,
-				9B03E1492085F2B900294F23 /* LaunchScreen.storyboard */,
-				9B03E14C2085F2B900294F23 /* Info.plist */,
-				9B03E14D2085F2B900294F23 /* main.m */,
+				9B03E1802085F36000294F23 /* DmPickerView */,
+				9B03E1702085F30400294F23 /* SupportFile */,
+				9B03E1852085F57400294F23 /* MainController.h */,
+				9B03E1862085F57400294F23 /* MainController.m */,
+				9B03E1882085FC0F00294F23 /* MainController.xib */,
+				9B03E18A2086D8F800294F23 /* PickViewController.h */,
+				9B03E18B2086D8F800294F23 /* PickViewController.m */,
+				9B03E18C2086D8F800294F23 /* PickViewController.xib */,
 			);
 			path = UIPickView;
 			sourceTree = "<group>";
 		};
-		9B03E1562085F2B900294F23 /* UIPickViewTests */ = {
+		9B03E1702085F30400294F23 /* SupportFile */ = {
 			isa = PBXGroup;
 			children = (
-				9B03E1572085F2B900294F23 /* UIPickViewTests.m */,
-				9B03E1592085F2B900294F23 /* Info.plist */,
+				9B03E1712085F30400294F23 /* AppDelegate.h */,
+				9B03E1782085F30400294F23 /* AppDelegate.m */,
+				9B03E1722085F30400294F23 /* Assets.xcassets */,
+				9B03E1732085F30400294F23 /* LaunchScreen.storyboard */,
+				9B03E1752085F30400294F23 /* Main.storyboard */,
+				9B03E1772085F30400294F23 /* main.m */,
+				9B03E1792085F30400294F23 /* Info.plist */,
 			);
-			path = UIPickViewTests;
+			path = SupportFile;
 			sourceTree = "<group>";
 		};
-		9B03E1612085F2B900294F23 /* UIPickViewUITests */ = {
+		9B03E1802085F36000294F23 /* DmPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				9B03E1622085F2B900294F23 /* UIPickViewUITests.m */,
-				9B03E1642085F2B900294F23 /* Info.plist */,
+				9B03E1812085F37A00294F23 /* DmPickerView.h */,
+				9B03E1822085F37A00294F23 /* DmPickerView.m */,
+				9B03E1842085F51D00294F23 /* AppMacros.h */,
 			);
-			path = UIPickViewUITests;
+			path = DmPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,42 +125,6 @@
 			productReference = 9B03E13B2085F2B900294F23 /* UIPickView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9B03E1522085F2B900294F23 /* UIPickViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9B03E16A2085F2B900294F23 /* Build configuration list for PBXNativeTarget "UIPickViewTests" */;
-			buildPhases = (
-				9B03E14F2085F2B900294F23 /* Sources */,
-				9B03E1502085F2B900294F23 /* Frameworks */,
-				9B03E1512085F2B900294F23 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9B03E1552085F2B900294F23 /* PBXTargetDependency */,
-			);
-			name = UIPickViewTests;
-			productName = UIPickViewTests;
-			productReference = 9B03E1532085F2B900294F23 /* UIPickViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9B03E15D2085F2B900294F23 /* UIPickViewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9B03E16D2085F2B900294F23 /* Build configuration list for PBXNativeTarget "UIPickViewUITests" */;
-			buildPhases = (
-				9B03E15A2085F2B900294F23 /* Sources */,
-				9B03E15B2085F2B900294F23 /* Frameworks */,
-				9B03E15C2085F2B900294F23 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9B03E1602085F2B900294F23 /* PBXTargetDependency */,
-			);
-			name = UIPickViewUITests;
-			productName = UIPickViewUITests;
-			productReference = 9B03E15E2085F2B900294F23 /* UIPickViewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,16 +137,6 @@
 					9B03E13A2085F2B900294F23 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-					};
-					9B03E1522085F2B900294F23 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 9B03E13A2085F2B900294F23;
-					};
-					9B03E15D2085F2B900294F23 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 9B03E13A2085F2B900294F23;
 					};
 				};
 			};
@@ -227,8 +154,6 @@
 			projectRoot = "";
 			targets = (
 				9B03E13A2085F2B900294F23 /* UIPickView */,
-				9B03E1522085F2B900294F23 /* UIPickViewTests */,
-				9B03E15D2085F2B900294F23 /* UIPickViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,23 +163,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B03E14B2085F2B900294F23 /* LaunchScreen.storyboard in Resources */,
-				9B03E1482085F2B900294F23 /* Assets.xcassets in Resources */,
-				9B03E1462085F2B900294F23 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B03E1512085F2B900294F23 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B03E15C2085F2B900294F23 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9B03E1892085FC0F00294F23 /* MainController.xib in Resources */,
+				9B03E17C2085F30400294F23 /* Main.storyboard in Resources */,
+				9B03E18E2086D8F800294F23 /* PickViewController.xib in Resources */,
+				9B03E17A2085F30400294F23 /* Assets.xcassets in Resources */,
+				9B03E17B2085F30400294F23 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,58 +178,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B03E1432085F2B900294F23 /* ViewController.m in Sources */,
-				9B03E14E2085F2B900294F23 /* main.m in Sources */,
-				9B03E1402085F2B900294F23 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B03E14F2085F2B900294F23 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B03E1582085F2B900294F23 /* UIPickViewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B03E15A2085F2B900294F23 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B03E1632085F2B900294F23 /* UIPickViewUITests.m in Sources */,
+				9B03E1872085F57400294F23 /* MainController.m in Sources */,
+				9B03E17E2085F30400294F23 /* AppDelegate.m in Sources */,
+				9B03E18D2086D8F800294F23 /* PickViewController.m in Sources */,
+				9B03E17D2085F30400294F23 /* main.m in Sources */,
+				9B03E1832085F37A00294F23 /* DmPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		9B03E1552085F2B900294F23 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9B03E13A2085F2B900294F23 /* UIPickView */;
-			targetProxy = 9B03E1542085F2B900294F23 /* PBXContainerItemProxy */;
-		};
-		9B03E1602085F2B900294F23 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9B03E13A2085F2B900294F23 /* UIPickView */;
-			targetProxy = 9B03E15F2085F2B900294F23 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		9B03E1442085F2B900294F23 /* Main.storyboard */ = {
+		9B03E1732085F30400294F23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9B03E1452085F2B900294F23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9B03E1492085F2B900294F23 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B03E14A2085F2B900294F23 /* Base */,
+				9B03E1742085F30400294F23 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9B03E1752085F30400294F23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B03E1762085F30400294F23 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,7 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5C939V75QW;
-				INFOPLIST_FILE = UIPickView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/UIPickView/SupportFile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LDZ.UIPickView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,69 +332,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5C939V75QW;
-				INFOPLIST_FILE = UIPickView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/UIPickView/SupportFile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LDZ.UIPickView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9B03E16B2085F2B900294F23 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5C939V75QW;
-				INFOPLIST_FILE = UIPickViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LDZ.UIPickViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIPickView.app/UIPickView";
-			};
-			name = Debug;
-		};
-		9B03E16C2085F2B900294F23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5C939V75QW;
-				INFOPLIST_FILE = UIPickViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LDZ.UIPickViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIPickView.app/UIPickView";
-			};
-			name = Release;
-		};
-		9B03E16E2085F2B900294F23 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5C939V75QW;
-				INFOPLIST_FILE = UIPickViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LDZ.UIPickViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = UIPickView;
-			};
-			name = Debug;
-		};
-		9B03E16F2085F2B900294F23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5C939V75QW;
-				INFOPLIST_FILE = UIPickViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LDZ.UIPickViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = UIPickView;
 			};
 			name = Release;
 		};
@@ -529,24 +357,6 @@
 			buildConfigurations = (
 				9B03E1682085F2B900294F23 /* Debug */,
 				9B03E1692085F2B900294F23 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B03E16A2085F2B900294F23 /* Build configuration list for PBXNativeTarget "UIPickViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B03E16B2085F2B900294F23 /* Debug */,
-				9B03E16C2085F2B900294F23 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B03E16D2085F2B900294F23 /* Build configuration list for PBXNativeTarget "UIPickViewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B03E16E2085F2B900294F23 /* Debug */,
-				9B03E16F2085F2B900294F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
